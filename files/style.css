@@ -47,10 +47,10 @@
               text-decoration: none;
               font-weight: 500;
               margin-left: 35px;
-              /* transition: .3s; */
-              /* opacity: 0; */
-              /* animation: slideUP .5s ease forwards; */
-              /* animation-delay: calc(.2s * var(--i)); */
+              transition: .3s;
+              opacity: 0;
+              animation: slideUP .5s ease forwards;
+              animation-delay: calc(.2s * var(--i));
           }
           
           .navbar a:hover {
@@ -84,25 +84,25 @@
               letter-spacing: 5px;
               padding-top: 10px;
               padding-bottom: 10px;
-              /* opacity: 0; */
-              /* animation: slideBottom 1s ease forwards; */
-              /* animation-delay: 1s; */
+              opacity: 0;
+              animation: slideBottom 1s ease forwards;
+              animation-delay: 1s;
           }
           
           .home-content h3 {
               font-size: 32px;
               font-weight: 700;
-              /* opacity: 0; */
-              /* animation: slideBottom 1s ease forwards; */
-              /* animation-delay: .7s; */
+              opacity: 0;
+              animation: slideBottom 1s ease forwards;
+              animation-delay: .7s;
           }
           
           .home-content h4 {
               font-size: 32px;
               font-weight: 700;
-              /* opacity: 0; */
-              /* animation: slideTop 1s ease forwards; */
-              /* animation-delay: calc(.2s * var(--i)); */
+              opacity: 0;
+              animation: slideTop 1s ease forwards;
+              animation-delay: calc(.2s * var(--i));
           }
           
           .home-content h4 span {
@@ -129,9 +129,9 @@
               color: #0ef;
               text-decoration: none;
               margin: 30px 15px 30px 0;
-              /* opacity: 0; */
-              /* animation: slideTop 1s ease forwards; */
-              /* animation-delay: calc(.2s * var(--i)); */
+              opacity: 0;
+              animation: slideTop 1s ease forwards;
+              animation-delay: calc(.2s * var(--i));
           }
           
           .home-sci a:hover {
@@ -170,9 +170,9 @@
               background-position: center center;
               background-size: cover;
               position: absolute;
-              /* opacity: 0; */
-              /* animation: slideUP 1s ease forwards; */
-              /* animation-delay: 1s; */
+              opacity: 0;
+              animation: slideUP 1s ease forwards;
+              animation-delay: 1s;
           }
           
           .responsive {
@@ -190,8 +190,8 @@
               background-color: black;
               display: grid;
               grid-template-columns: repeat(2, .5fr);
-              /*align-items: center;*/
-              /*gap: 1.5rem;*/
+              align-items: center;
+              gap: 1.5rem;
               width: 100%;
               justify-content: space-between;
               min-height: 100vh;
@@ -205,7 +205,7 @@
               background-size: cover;
               padding-right: 10%;
               margin-top: 2.5%;
-              /*margin-top: 7.5%;*/
+              margin-top: 7.5%;
               opacity: 1;
           }
           
@@ -215,7 +215,7 @@
               max-width: 492px;
               max-height: 492px;
               border-radius: 90px;
-              /*box-shadow: 0 0 5pc cyan, 0 0 5px cyan, 0 0 10px cyan;*/
+              box-shadow: 0 0 5pc cyan, 0 0 5px cyan, 0 0 10px cyan;
               border: #0ef 5px solid;
           }
           
@@ -301,7 +301,7 @@
             max-height: 300px;
             border-radius: 15px;
             display: block;
-            /* transition: transform 0.5s; */
+            transition: transform 0.5s;
             padding: 10px;
         }
         
@@ -323,7 +323,7 @@
             justify-content: center;
             text-align: center;
             padding: 40px;
-            /* transition: height 0.5s; */
+            transition: height 0.5s;
         }
         
         .layer h5 {
@@ -390,7 +390,7 @@
               border-right: 10px;
               border-radius: 20px;
               transition: background 0.5s, transform 0.5s;
-              /*box-shadow: 1px 1px 20px #012290f7, 1px 1px 40px #0053b8f7;*/
+              box-shadow: 1px 1px 20px #012290f7, 1px 1px 40px #0053b8f7;
               border: #0ef 5px solid;
           }
           
@@ -446,7 +446,7 @@
           
           .contacts {
               display: grid;
-              /*grid-template-columns: repeat (2, 1fr);*/
+              grid-template-columns: repeat (2, 1fr);
               align-items: center;
               gap: 3rem;
               padding: 40px;
@@ -485,12 +485,12 @@
               margin-bottom: 2rem;
           }*/
          
-          /*.contact-text p{
+          .contact-text p{
               color: rgb(177, 177, 177);
               font-size: 20px;
               line-height: 30px;
               margin-bottom: 2rem;
-          }*/
+          } 
           .contact-list {
               margin-bottom: 3rem;
           }
